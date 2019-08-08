@@ -1,0 +1,259 @@
+// === header ===
+@media (max-width: 670px) {
+  .header {
+    &__btn-menu {
+      display: block;
+    }
+
+    &__btn {
+      width: 100%;
+      padding-left: 45px;
+    }
+    &__contacts {
+      text-align: center;
+    }
+    &__phone,
+    &__email {
+      padding-right: 20px;
+    }
+  }
+
+  .menu {
+    z-index: 5;
+    ul {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      display: block;
+      text-align: center;
+    }
+
+    li + li {
+      padding-left: 0;
+    }
+
+    a {
+      display: block;
+      background-color: #ffc222;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+    }
+  }
+}
+
+@media (min-width: 671px) {
+  .menu ul {
+    display: block !important;
+  }
+}
+
+// === header ===
+
+// === slider ===
+@media (max-width: 900px) {
+  .slider .slick-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .slider {
+    &__title {
+      font-size: 24px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+// === slider ===
+
+// === services ===
+@media (max-width: 1150px) {
+  .services {
+   &__item{
+     max-width: 80%;
+     min-height: 330px;
+     margin: 30px auto;
+   }
+    &__items{
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .services {
+    &__item{
+      max-width: 100%;
+      min-height: 375px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .services, .form, .news {
+    &__top{
+      display: block;
+    }
+    &__title-box{
+      padding-left: 0;
+      text-align: center;
+      margin: 0 auto 30px;
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &__btn {
+      text-align: center;
+    }
+
+    &__item-link{
+      margin-right: 30px;
+    }
+  }
+}
+
+// === services ===
+
+// === form ===
+@media (max-width: 1156px) {
+  .form-inner {
+    background-image: none;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .form {
+
+    &__box{
+      padding-top: 0;
+    }
+
+    &__box-inner{
+      display: block;
+
+      & .jq-selectbox__select{
+        margin-bottom: 10px;
+      }
+    }
+    &__box-left{
+      max-width: 100%;
+    }
+    &__box-right{
+      max-width: 100%;
+    }
+  }
+}
+
+// === form ===
+
+// === advantages ===
+@media (max-width: 900px) {
+  .advantages {
+    &__inner{
+      display: block;
+    }
+    &__item{
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .advantages {
+    &__item{
+      padding: 0;
+    }
+  }
+}
+
+// === advantages ===
+
+// === news ===
+@media (max-width: 1150px) {
+    .news{
+      padding-bottom: 30px;
+      &__inner{
+        display: block;
+      }
+
+      &__slider{
+        max-width: 100%;
+        margin-bottom: 90px;
+      }
+
+      &__blog{
+        max-width: 100%;
+        display: block;
+        margin-bottom: 30px;
+
+        &:after{
+          content: "";
+          clear: both;
+          display: block;
+        }
+      }
+
+      &__images {
+        float: left;
+        margin-right: 50px;
+      }
+    }
+}
+
+@media (max-width: 540px) {
+  .news__slider{
+    padding: 50px 15px 25px 25px;
+
+    &:before{
+      left: 25px;
+    }
+
+    &-inner .slick-next{
+      right: -20px;
+    }
+
+    &-inner .slick-prev{
+      right: 35px;
+    }
+
+    &-inner .slick-btn{
+      bottom: -90px;
+    }
+  }
+
+  .news__images {
+    float: none;
+  }
+}
+
+// === news ===
+
+// === footer ===
+@media (max-width: 1055px) {
+  .footer{
+    &__inner{
+      display: block;
+    }
+
+    &__map{
+      max-width: 100%;
+    }
+
+    &__info{
+      max-width: 465px ;
+      margin-bottom: 30px;
+    }
+  }
+}
+// === footer ===
